@@ -2,8 +2,6 @@
 __pycache__/
 *.py[cod]
 
-# PDF and other build files
-*.pdf
 
 # TeX auxiliary files
 *.aux
