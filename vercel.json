@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "lyla",
+  "builds": [
+    {
+      "src": "web/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/web/$1"
+    }
+  ]
+}
+
+
+
