@@ -1,0 +1,141 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{ulem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes}
+
+\usepackage{sectsty}
+\sectionfont{\color{sectionColor}}       % Color for \section
+\subsectionfont{\color{subsectionColor}}
+
+
+\definecolor{titleColor}{HTML}{800000}        % Maroon
+\definecolor{sectionColor}{HTML}{4682B4}      % SteelBlue
+\definecolor{textHighlight}{HTML}{DAA520}     % Goldenrod
+\definecolor{backgroundColor}{HTML}{F0F8FF}   % AliceBlue
+\definecolor{emphasisColor}{HTML}{228B22}     % ForestGreen
+\definecolor{subsectionColor}{HTML}{6A5ACD}   % SlateBlue
+
+\lstdefinelanguage{SAS}{
+  morekeywords={
+    data, set, do, end, run, if, then, else, proc, tables, output,
+    class, var, mean, freq, tabulate, export, outfile, dbms, replace,
+    title },
+
+
+
+\title{\textcolor{titleColor}{\textbf{\Huge \textbf{ Monte Carlo Simulation for War-Affected Medical Students \\ }}}}
+
+\author{B. M. Lyla\thanks{Al Khartoum University, Faculty of medicine  Cairo \\ \texttt{lylababikern@gmail.com}}}
+\date{\today}
+\begin{document}
+\maketitle
+\section*{Introduction}
+
+This document presents a Monte Carlo simulation using SAS to model the recovery of 100 medical students affected by the war in Sudan. Students are categorized into three groups: Trauma, Stress and Anxiety, and Depression. Each group is assigned a doctor with a specific recovery protocol. The simulation estimates recovery outcomes over three months.
+
+\section*{Methods}
+
+The SAS code below:
+\begin{enumerate}
+  \item Creates 100 students, randomly assigning each to one of the three categories.
+  \item Assigns each group to a dedicated doctor.
+  \item Simulates recovery outcomes with assumed probabilities for each category.
+  \item Evaluates recovery outcomes using a chi-square test.
+  \item Summarizes results in tabulated reports and exports the data.
+\end{enumerate}
+
+\section*{SAS Simulation Code}
+
+\begin{lstlisting}[style=sasstyle, caption={Monte Carlo Simulation in SAS with Trauma, Stress and Anxiety, Depression}]
+/* ---------------------------------------------------------------
+   Monte Carlo Simulation for War-Affected Medical Students
+   Categories: Trauma, Stress and Anxiety, Depression
+   --------------------------------------------------------------- */
+
+%let n_students = 100;
+%let n_simulations = 1000;
+
+data students;
+    do ID = 1 to &n_students;
+        /* Randomly assign condition: 1=Trauma, 2=Stress and Anxiety, 3=Depression */
+        condition = ceil(ranuni(1234) * 3);
+        if condition = 1 then condition_label = "Trauma";
+        else if condition = 2 then condition_label = "Stress\_and\_Anxiety";
+        else if condition = 3 then condition_label = "Depression";
+        output;
+    end;
+run;
+
+proc freq data=students;
+    tables condition_label;
+    title "Initial Distribution of Categories";
+run;
+
+data students;
+    set students;
+    if condition = 1 then doctor = "Dr\_A\_Trauma";
+    else if condition = 2 then doctor = "Dr\_B\_Stress\_Anxiety";
+    else if condition = 3 then doctor = "Dr\_C\_Depression";
+run;
+
+data results;
+    set students;
+    do sim = 1 to &n_simulations;
+        rand = ranuni(1234);
+        if condition = 1 then do;
+            if rand < 0.60 then outcome = "Recovered";
+            else outcome = "Not\_Recovered";
+        end;
+        else if condition = 2 then do;
+            if rand < 0.75 then outcome = "Recovered";
+            else outcome = "Not\_Recovered";
+        end;
+        else if condition = 3 then do;
+            if rand < 0.50 then outcome = "Recovered";
+            else outcome = "Not\_Recovered";
+        end;
+        output;
+    end;
+run;
+
+proc freq data=results;
+    tables condition_label*outcome / chisq;
+    title "Recovery Outcomes with Chi-Square Test";
+run;
+
+proc tabulate data=results;
+    class condition_label outcome;
+    table condition_label, outcome*(N colpctn);
+    title "Recovery Report after 3 Months";
+run;
+
+proc export data=results
+    outfile="results\_updated\_categories.xlsx"
+    dbms=xlsx
+    replace;
+run;
+\end{lstlisting}
+
+\section*{Expected Results}
+
+\begin{itemize}
+  \item Initial distribution of students across Trauma, Stress and Anxiety, and Depression.
+  \item Recovery rates for each category based on assumed success probabilities.
+  \item Chi-square test to check for significant differences between recovery outcomes.
+\end{itemize}
+
+\section*{Conclusion}
+
+This simulation demonstrates a practical framework for modeling recovery outcomes for students facing Trauma, Stress and Anxiety, and Depression due to war. This base can be extended to real data, richer assumptions, and more advanced statistical models.
+
+\end{document}
+
