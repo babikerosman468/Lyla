@@ -2,7 +2,8 @@
 
 # === CONFIG ===
 PROJECT_DIR="$HOME/20/22/24/lyla/project"
-REMOTE_URL="https://github.com/babikerosman468/Lyla.git"
+REPO_NAME="Lyla"
+REMOTE_URL="git@github.com:babikerosman468/$REPO_NAME.git"
 
 # === STEP 1: Go to project ===
 cd "$PROJECT_DIR" || { echo "Directory not found: $PROJECT_DIR"; exit 1; }
@@ -38,12 +39,15 @@ git add .
 # === STEP 5: Initial commit ===
 git commit -m "Initial commit with .gitignore"
 
-# === STEP 6: Add remote ===
+# === STEP 6: Create remote repo using GitHub CLI ===
+gh repo create babikerosman468/$REPO_NAME --public --confirm
+
+# === STEP 7: Add remote ===
 git remote add origin "$REMOTE_URL"
 
-# === STEP 7: Push to main ===
+# === STEP 8: Push to main ===
 git branch -M main
 git push -u origin main
 
-echo "✅ Done! Repository initialized and pushed to remote."
+echo "✅ Done! Local repo initialized, remote repo created, and pushed using SSH!"
 
