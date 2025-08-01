@@ -1,12 +1,11 @@
-
 #!/bin/bash
 
 # === CONFIG ===
 PROJECT_DIR="$HOME/20/22/24/lyla/project"
-REMOTE_URL="babikerosman468/lyla"
+REMOTE_URL="https://github.com/babikerosman468/Lyla.git"
 
 # === STEP 1: Go to project ===
-cd $PROJECT_DIR || { echo "Directory not found: $PROJECT_DIR"; exit 1; }
+cd "$PROJECT_DIR" || { echo "Directory not found: $PROJECT_DIR"; exit 1; }
 
 # === STEP 2: Initialize git ===
 git init
