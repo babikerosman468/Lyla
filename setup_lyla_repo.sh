@@ -3,7 +3,7 @@
 
 # === CONFIG ===
 PROJECT_DIR="$HOME/20/22/24/lyla/project"
-REMOTE_URL="babikerosman468"
+REMOTE_URL="babikerosman468/lyla"
 
 # === STEP 1: Go to project ===
 cd $PROJECT_DIR || { echo "Directory not found: $PROJECT_DIR"; exit 1; }
