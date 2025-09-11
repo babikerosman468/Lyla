@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{ulem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes}
+
+\usepackage{sectsty}
+\sectionfont{\color{sectionColor}}       % Color for \section
+\subsectionfont{\color{subsectionColor}}
+
+
+\definecolor{titleColor}{HTML}{800000}        % Maroon
+\definecolor{sectionColor}{HTML}{4682B4}      % SteelBlue
+\definecolor{textHighlight}{HTML}{DAA520}     % Goldenrod
+\definecolor{backgroundColor}{HTML}{F0F8FF}   % AliceBlue
+\definecolor{emphasisColor}{HTML}{228B22}     % ForestGreen
+\definecolor{subsectionColor}{HTML}{6A5ACD}   % SlateBlue
+
+
+\title{\textcolor{titleColor}{\textbf{\Huge \textbf{Understanding the Chi-square Test}}}}
+
+\author{B. M. Osman\thanks{Al Nahada University, Cairo \\ \texttt{babikerosman@yahoo.com}}}
+\date{\today}
+\begin{document}
+\maketitle
+
+
+\section*{What is Chi-square?}
+
+The Chi-square ($\chi^2$) test is a statistical method used to compare observed data with data we would expect to obtain according to a specific hypothesis. It measures the difference between expected and observed frequencies.
+
+\section*{When to use it}
+
+\begin{itemize}
+  \item \textbf{Goodness-of-fit:} Does the sample data fit a specified distribution?
+  \item \textbf{Test of independence:} Are two categorical variables independent?
+  \item \textbf{Test of homogeneity:} Are distributions the same across populations?
+\end{itemize}
+
+\section*{SAS Code Example}
+
+Below is an example of a Chi-square test of independence using SAS:
+
+\begin{verbatim}
+data example;
+   input Gender $ Preference $ Count;
+   datalines;
+Male   A 30
+Male   B 20
+Female A 25
+Female B 25
+;
+run;
+
+proc freq data=example;
+   tables Gender*Preference / chisq;
+   weight Count;
+run;
+\end{verbatim}
+
+This tests whether \texttt{Gender} and \texttt{Preference} are independent.
+
+\end{document}
+
+
+---
+
+If you’d like, I can help adapt this to goodness-of-fit, real data, or help you run it in SAS Studio. Just let me know!
+
+

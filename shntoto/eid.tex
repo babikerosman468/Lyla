@@ -1,0 +1,31 @@
+\documentclass[a6paper, landscape]{article} % حجم A6 أفقي
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % لإدراج الصور
+\usepackage[margin=0.5cm]{geometry} % هوامش ضيقة
+\usepackage{arabtex} % للنص العربي (تأكد من تثبيت الحزمة)
+\usepackage{xcolor} % للألوان
+
+\begin{document}
+\thispagestyle{empty} % إزالة رقم الصفحة
+
+\begin{center}
+    \includegraphics[width=2cm]{profile.jpeg} \\ % استبدل profile.jpg  بصورتك
+    \vspace{0.5cm}
+    \textcolor{blue!70!black}{ % لون النص
+        \begin{large}
+            <بمناسبة \textbf{العيد المبارك}،> \\
+            <تهانينا القلبية لكم وأسرتكم.> \\
+            <كل عام وأنتم بخير.> \\
+        \end{large}
+    }
+    \vspace{1cm}
+    \textcolor{gold}{ % لون التوقيع
+        \begin{tabular}{r}
+            \hline
+            \scriptsize\textit{مع محبتكم،} \\
+            \textbf{اسمك}
+        \end{tabular}
+    }
+\end{center}
+
+\end{document}

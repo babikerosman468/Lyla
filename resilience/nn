@@ -1,0 +1,13 @@
+&& xelatex 2.tex && bibtex 2 && xelatex 2.tex && xelatex 2.tex
+
+
+
+
+cat 2.tex | grep -E "cite|Cite"
+
+This will list every \cite{...} and \Cite{...} command in your LaTeX file.
+Then we can cross-check them one by one against your ref.bib entries.
+
+Would you like me to also give you a quick script that automatically compares all \cite{} keys in 2.tex with the keys inside ref.bib so we instantly see which ones are missing or mismatched?
+
+

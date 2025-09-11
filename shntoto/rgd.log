@@ -1,0 +1,1424 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Termux) (preloaded format=xelatex 2024.9.21)  6 JUN 2025 22:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**rgd.tex
+(./rgd.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/a
+rticle.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/s
+ize12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count190
+\c@section=\count191
+\c@subsection=\count192
+\c@subsubsection=\count193
+\c@paragraph=\count194
+\c@subparagraph=\count195
+\c@figure=\count196
+\c@table=\count197
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/babe
+l/babel.sty
+Package: babel 2024/09/18 v24.10 The Babel package
+\babel@savecnt=\count198
+\U@D=\dimen142
+\l@unhyphenated=\language89
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/babe
+l/xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count199
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+arabic.ldf
+File: arabic.ldf 
+Language: arabic 2006/01/01 v0.1 Arabic support for the babel system
+ Loading the definitions for the LaTeX{} Arabic encoding
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+laeenc.def
+File: laeenc.def 2006/01/01 v0.1 Local Arabic font encoding (test version: may 
+change)
+) Loading the Common definitions for Arabic and Farsi
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+arabicore.sty   Arabi Core switching commands v1.0  2006/01/01
+  (may still change)  
+\n@everypar=\toks17
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 140 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 144 replaced by U+FFFD.
+\@Arabitempboxa=\box52
+\llahheight=\skip51
+\Decimalheight=\skip52
+)
+LaTeX Font Info:    Redeclaring font encoding LAE on input line 144.
+ Loading the Arabi fonts definitions for Arabic
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+arabicfnt.sty   Arabic font switching commands v1.0  2006/01/01
+  (may still change)  
+LaTeX Info: Redefining \texttimes on input line 101.
+LaTeX Info: Redefining \times on input line 102.
+LaTeX Info: Redefining \omega on input line 137.
+) Loading the Common definitions for Arabic and Farsi
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+arabnovowel.sty
+File: arabnovowel.sty 2005/09/07 v0.1 Arabic dummy vowel slots when needed
+\ArabiStruthightOFF=\skip53
+\ArabiStrutdepthOFF=\skip54
+\ArabiStruthightON=\skip55
+\ArabiStrutdepthON=\skip56
+LaTeX Font Info:    Trying to load font information for LAE+lmr on input line 1
+33.
+LaTeX Font Info:    No file LAElmr.fd. on input line 133.
+LaTeX Font Info:    Trying to load font information for LAE+cmr on input line 1
+33.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+laecmr.fd
+File: laecmr.fd 2006/01/01 v0.1 LaTeX Arabic default font description (test ver
+sion: may change)
+)
+
+LaTeX Font Warning: Font shape `LAE/lmr/m/n' undefined
+(Font)              using `LAE/cmr/m/n' instead on input line 133.
+
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 15.0pt on input line 133.
+LaTeX Font Info:    Font shape `LAE/lmr/m/n' will be
+(Font)              scaled to size 15.0pt on input line 135.
+)
+*************************************
+* Local config file arabic.cfg used
+*
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/arabi/
+arabic.cfg)))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/babe
+l/locale/ar/babel-arabic.tex
+Package babel Info: Importing font and identification data for arabic
+(babel)             from babel-ar.ini. Reported on input line 11.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/i
+nputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+
+! Package inputenc Error: inputenc is not designed for xetex or luatex.
+(inputenc)                only UTF-8 supported.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \endinput
+               
+? 
+)
+
+! LaTeX Error: Option clash for package inputenc.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \usepackage
+               {amssymb}
+? 
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsfon
+ts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsfon
+ts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/geomet
+ry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ifte
+x/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ifte
+x/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count266
+\Gm@cntv=\count267
+\c@Gm@tempcnt=\count268
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks22
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/wrapfi
+g/wrapfig.sty
+\wrapoverhang=\dimen153
+\WF@size=\dimen154
+\c@WF@wrappedlines=\count269
+\WF@box=\box53
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
+h/amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
+h/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
+h/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen155
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
+h/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
+h/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count275
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip17
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks25
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks26
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks27
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/xcolor
+/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/polyglossia.sty
+Package: polyglossia 2024/07/15 v2.2 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/etoolb
+ox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count282
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/fontsp
+ec/fontspec.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3pack
+ages/xparse/xparse.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3kern
+el/expl3.sty
+Package: expl3 2024-08-30 L3 programming layer (loader) 
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3back
+end/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count283
+\l__pdf_internal_box=\box56
+\g__pdf_backend_annotation_int=\count284
+\g__pdf_backend_link_int=\count285
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/fontsp
+ec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count286
+\l__fontspec_language_int=\count287
+\l__fontspec_strnum_int=\count288
+\l__fontspec_tmp_int=\count289
+\l__fontspec_tmpa_int=\count290
+\l__fontspec_tmpb_int=\count291
+\l__fontspec_tmpc_int=\count292
+\l__fontspec_em_int=\count293
+\l__fontspec_emdef_int=\count294
+\l__fontspec_strong_int=\count295
+\l__fontspec_strongdef_int=\count296
+\l__fontspec_tmpa_dim=\dimen164
+\l__fontspec_tmpb_dim=\dimen165
+\l__fontspec_tmpc_dim=\dimen166
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/f
+ontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/fontsp
+ec/fontspec.cfg)))
+\l_xpg_alias_keyvals_int=\count297
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/fr
+ontendlayer/tikz.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ba
+siclayer/pgf.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ut
+ilities/pgfrcs.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen167
+\pgfutil@tempdimb=\dimen168
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgfutil-latex.def
+\pgfutil@abb=\box57
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgfrcs.code.tex
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ba
+siclayer/pgfcore.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/sy
+stemlayer/pgfsys.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen169
+\pgf@y=\dimen170
+\pgf@xa=\dimen171
+\pgf@ya=\dimen172
+\pgf@xb=\dimen173
+\pgf@yb=\dimen174
+\pgf@xc=\dimen175
+\pgf@yc=\dimen176
+\pgf@xd=\dimen177
+\pgf@yd=\dimen178
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count298
+\c@pgf@countb=\count299
+\c@pgf@countc=\count300
+\c@pgf@countd=\count301
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count302
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count303
+)))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmath.code.tex
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathutil.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen179
+\pgfmath@count=\count306
+\pgfmath@box=\box58
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.basic.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.trigonometric.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.random.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.comparison.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.base.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.round.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.misc.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfunctions.integerarithmetics.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathcalc.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count307
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfint.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen180
+\pgf@picmaxx=\dimen181
+\pgf@picminy=\dimen182
+\pgf@picmaxy=\dimen183
+\pgf@pathminx=\dimen184
+\pgf@pathmaxx=\dimen185
+\pgf@pathminy=\dimen186
+\pgf@pathmaxy=\dimen187
+\pgf@xx=\dimen188
+\pgf@xy=\dimen189
+\pgf@yx=\dimen190
+\pgf@yy=\dimen191
+\pgf@zx=\dimen192
+\pgf@zy=\dimen193
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen194
+\pgf@path@lasty=\dimen195
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen196
+\pgf@shorten@start@additional=\dimen197
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count308
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen198
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen199
+\pgf@pt@y=\dimen256
+\pgf@pt@temp=\dimen257
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen258
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen259
+\pgf@sys@shading@range@num=\count309
+\pgf@shadingcount=\count310
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box62
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box63
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/co
+mpatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen260
+\pgf@nodesepend=\dimen261
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/co
+mpatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ut
+ilities/pgffor.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ut
+ilities/pgfkeys.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgfkeys.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ma
+th/pgfmath.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+math/pgfmath.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen262
+\pgffor@skip=\dimen263
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen264
+)
+\tikz@lastx=\dimen265
+\tikz@lasty=\dimen266
+\tikz@lastxsaved=\dimen267
+\tikz@lastysaved=\dimen268
+\tikz@lastmovetox=\dimen269
+\tikz@lastmovetoy=\dimen270
+\tikzleveldistance=\dimen271
+\tikzsiblingdistance=\dimen272
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
+)
+\tikz@expandcount=\count319
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/shapes/pgflibraryshapes.callouts.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
+libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box68
+\pgfnodeparttwobox=\box69
+\pgfnodepartthreebox=\box70
+\pgfnodepartfourbox=\box71
+\pgfnodeparttwentybox=\box72
+\pgfnodepartnineteenbox=\box73
+\pgfnodeparteighteenbox=\box74
+\pgfnodepartseventeenbox=\box75
+\pgfnodepartsixteenbox=\box76
+\pgfnodepartfifteenbox=\box77
+\pgfnodepartfourteenbox=\box78
+\pgfnodepartthirteenbox=\box79
+\pgfnodeparttwelvebox=\box80
+\pgfnodepartelevenbox=\box81
+\pgfnodeparttenbox=\box82
+\pgfnodepartninebox=\box83
+\pgfnodeparteightbox=\box84
+\pgfnodepartsevenbox=\box85
+\pgfnodepartsixbox=\box86
+\pgfnodepartfivebox=\box87
+)))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/gloss-arabic.ldf
+File: gloss-arabic.ldf polyglossia: module for Arabic
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/bidi.sty
+Package: bidi 2023/08/02 v39.8 (Release Donald Ervin Knuth) Bidirectional types
+etting in plain TeX and LaTeX
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2023 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v39.8 (Release Donald Ervin Knuth), 2023/08/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/kvafa/bidi/issues
+* 
+* Discussions: https://github.com/kvafa/bidi/discussions
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/biditools.sty
+Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
+\@bidi@envbody=\toks41
+\@bidi@emptytoks=\toks42
+\bidi@poscount=\count320
+\bidi@tempcountb=\count321
+\bidi@temptoksa=\toks43
+\bidi@temptoksb=\toks44
+\bidi@dummies=\count322
+\bidi@are@these@correct=\toks45
+\bidi@toks@lista=\toks46
+\bidi@toks@listb=\toks47
+\bidi@stack@length=\count323
+\bidi@empty@stack=\toks48
+\bidi@looprepeat@depth=\count324
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/zref/z
+ref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/zref/z
+ref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ltxc
+mds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/infw
+arerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/kvsetk
+eys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/kvde
+finekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pdft
+excmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/etex
+cmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/auxhoo
+k/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count325
+Package zref Info: New property: abspage on input line 67.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/xkeyva
+l/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/xkey
+val/xkeyval.tex
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/xkey
+val/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count326
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\@bidi@copyins@=\insert252
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks51
+\bidi@column@check@number=\count327
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count328
+\footdir@toks=\toks52
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/article-xetex-bidi.def
+File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
+cle class for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/amsmath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/amstext-xetex-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
+ge for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/color-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 49.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/xcolor-xetex-bidi.def
+File: xcolor-xetex-bidi.def 2022/06/13 v0.3 bidi adaptations for xcolor package
+ for XeTeX engine
+LaTeX Info: Redefining \color on input line 48.
+LaTeX Info: Redefining \bidicolor on input line 91.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/wrapfig-xetex-bidi.def
+File: wrapfig-xetex-bidi.def 2014/04/23 v0.3 bidi adaptations for wrapfig packa
+ge for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/geometry-xetex-bidi.def
+File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry pac
+kage for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/pgfcorescopes.code-xetex-bidi.def
+File: pgfcorescopes.code-xetex-bidi.def 2015/11/14 v0.1 bidi adaptations for pg
+f package for XeTeX engine
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/pgfsys.code-xetex-bidi.def
+File: pgfsys.code-xetex-bidi.def 2022/06/01 v0.1 bidi adaptations for pgfsys.co
+de.tex file for XeTeX engine
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/xelatex/bidi
+/loadingorder-xetex-bidi.def
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
+ last package loaded
+)
+\bidi@digits=\count329
+\bidi@digits@charclass=\XeTeXcharclass4
+\bidi@sepmark@charclass=\XeTeXcharclass5
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/arabicnumbers.sty
+Package: arabicnumbers 2010/03/18 v0.2 Formatting of Arabic and Farsi digits an
+d of Arabic abjad numerals
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/hijrical.sty
+Package: hijrical 2010/07/12 v0.2 Islamic calendar
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/tools/
+calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count330
+\calc@Bcount=\count331
+\calc@Adimen=\dimen273
+\calc@Bdimen=\dimen274
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count332
+\calc@Cskip=\skip62
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/cal-util.def
+\c@tmpA=\count333
+\c@tmpB=\count334
+\c@tmpC=\count335
+\c@tmpD=\count336
+\c@tmpE=\count337
+\c@tmpF=\count338
+)
+\c@Hijriday=\count339
+\c@Hijrimonth=\count340
+\c@Hijriyear=\count341
+))
+
+Package polyglossia Info: Default language is arabic
+
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/polygl
+ossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+
+Package fontspec Info: 
+(fontspec)             Amiri scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Amiri scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Amiri/B scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Amiri/I scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Amiri/BI scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Amiri(0)' created for font 'Amiri' with
+(fontspec)             options [Script=Arabic,Scale=1.2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Amiri/OT:script=arab;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Amiri/B/OT:script=arab;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Amiri/I/OT:script=arab;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Amiri/BI/OT:script=arab;language=dflt;"
+
+
+No file rgd.aux.
+\openout1 = `rgd.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+1.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/t
+s1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+! Undefined control sequence.
+<argument> \familytype 
+                       
+l.31 \begin{document}
+                     
+? 
+! Undefined control sequence.
+<argument> \familytype 
+                       
+l.31 \begin{document}
+                     
+? 
+LaTeX Font Info:    Font shape `TU/Amiri(0)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 31.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/i
+fthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 31.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 31.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 31.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 31.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 31.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 31.
+LaTeX Font Info:    Redeclaring math accent \check on input line 31.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 31.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 31.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 31.
+LaTeX Font Info:    Font shape `TU/Amiri(0)/m/n' will be
+(Font)              scaled to size 29.85593pt on input line 34.
+LaTeX Font Info:    Font shape `TU/Amiri(0)/b/n' will be
+(Font)              scaled to size 29.85593pt on input line 34.
+LaTeX Font Info:    Font shape `TU/Amiri(0)/b/n' will be
+(Font)              scaled to size 14.39996pt on input line 36.
+File: 107.jpg Graphic file (type bmp)
+<107.jpg>
+! Undefined control sequence.
+<argument> ...lect@language {\main@Arabi@language 
+                                                  }}
+l.43 ...r{sectionColor}{أطفال الماضي أجداد اليوم}}
+                                                  
+? 
+LaTeX Font Info:    Trying to load font information for LAE+Amiri(0) on input l
+ine 43.
+LaTeX Font Info:    No file LAEAmiri(0).fd. on input line 43.
+
+LaTeX Font Warning: Font shape `LAE/Amiri(0)/m/n' undefined
+(Font)              using `LAE/cmr/m/n' instead on input line 43.
+
+LaTeX Font Info:    Font shape `LAE/Amiri(0)/m/n' will be
+(Font)              scaled to size 15.0pt on input line 43.
+Missing character: There is no ش ("634) in font aealmohanadb!
+Missing character: There is no ك ("643) in font aealmohanadb!
+Missing character: There is no ل ("644) in font aealmohanadb!
+Missing character: There is no أ ("623) in font aealmohanadb!
+Missing character: There is no ط ("637) in font aealmohanadb!
+Missing character: There is no ف ("641) in font aealmohanadb!
+Missing character: There is no ا ("627) in font aealmohanadb!
+Missing character: There is no ل ("644) in font aealmohanadb!
+Missing character: There is no ا ("627) in font aealmohanadb!
+Missing character: There is no ل ("644) in font aealmohanadb!
+Missing character: There is no م ("645) in font aealmohanadb!
+Missing character: There is no ا ("627) in font aealmohanadb!
+Missing character: There is no ض ("636) in font aealmohanadb!
+Missing character: There is no ي ("64A) in font aealmohanadb!
+Missing character: There is no أ ("623) in font aealmohanadb!
+Missing character: There is no ج ("62C) in font aealmohanadb!
+Missing character: There is no د ("62F) in font aealmohanadb!
+Missing character: There is no ا ("627) in font aealmohanadb!
+Missing character: There is no د ("62F) in font aealmohanadb!
+Missing character: There is no ا ("627) in font aealmohanadb!
+Missing character: There is no ل ("644) in font aealmohanadb!
+Missing character: There is no ي ("64A) in font aealmohanadb!
+Missing character: There is no و ("648) in font aealmohanadb!
+Missing character: There is no م ("645) in font aealmohanadb!
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52
+.
+
+
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 52--53
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 57--64
+[][][][]\TU/Amiri(0)/m/n/12 وأنتمُ الآنَ مصدرُ[][][][]
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 57--64
+[][][][]\TU/Amiri(0)/m/n/12 كبار أنتم، وذِكرى[][][][]
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 57--64
+[][][][]\TU/Amiri(0)/m/n/12 تُحكى للصغارِ بكل[][][][]
+ []
+
+
+
+[1
+
+] (./rgd.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 22918 strings out of 474235
+ 526158 string characters out of 5730238
+ 1072414 words of memory out of 5000000
+ 45171 multiletter control sequences out of 15000+600000
+ 562541 words of font info for 53 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,5n,107p,1250b,247s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on rgd.pdf (1 page).

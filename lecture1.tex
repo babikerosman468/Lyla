@@ -1,0 +1,280 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{ulem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes}
+
+\usepackage{sectsty}
+\sectionfont{\color{sectionColor}}       % Color for \section
+\subsectionfont{\color{subsectionColor}}
+
+
+\definecolor{titleColor}{HTML}{800000}        % Maroon
+\definecolor{sectionColor}{HTML}{4682B4}      % SteelBlue
+\definecolor{textHighlight}{HTML}{DAA520}     % Goldenrod
+\definecolor{backgroundColor}{HTML}{F0F8FF}   % AliceBlue
+\definecolor{emphasisColor}{HTML}{228B22}     % ForestGreen
+\definecolor{subsectionColor}{HTML}{6A5ACD}   % SlateBlue
+
+
+\title{\textcolor{titleColor}{\textbf{\Huge \textbf{ 
+
+ }}}}
+
+\author{B. M. Osman\thanks{Al Nahada University, Cairo \\ \texttt{babikerosman@yahoo.com}}}
+\date{\today}
+\begin{document}
+\maketitle
+
+Chi-square Tests: Theory, SAS, and Genetics Applications
+
+\section*{Introduction}
+The Chi-square test (\chi^2) is a statistical method to compare observed frequencies with expected frequencies under a certain hypothesis.
+
+\section*{Chi-square Formula}
+\[
+\chi^2 = \sum \frac{(O - E)^2}{E}
+\]
+where O = observed count, E = expected count.
+
+\section*{Uses}
+- Test goodness-of-fit
+- Test independence between categorical variables
+- Test genetic hypotheses (e.g., Mendelian ratios, Hardy-Weinberg equilibrium)
+
+\section*{Examples}
+
+\subsection*{1. Fair Die Test}
+Test if a die is fair (all faces equally likely).
+
+\subsection*{2. Coin Toss Test}
+Test if a coin is fair (heads vs tails 50-50).
+
+\subsection*{3. Mendelian Genetics Test}
+Test if pea color fits expected 3:1 ratio.
+
+\subsection*{4. Hardy-Weinberg Equilibrium Test}
+Test if genotype frequencies fit HW expected ratios.
+
+\section*{SAS Code Examples}
+See separate SAS scripts provided.
+
+\end{document}
+
+
+\documentclass{beamer}
+\title{Chi-square Tests in Research}
+
+\frame{\titlepage}
+
+\begin{frame}{What is Chi-square?}
+\[
+\chi^2 = \sum \frac{(O - E)^2}{E}
+\]
+\end{frame}
+
+\begin{frame}{Uses of Chi-square Tests}
+\begin{itemize}
+\item Goodness-of-fit
+\item Test of independence
+\item Genetic hypothesis testing
+\item Hardy-Weinberg equilibrium testing
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example: Fair Die Test}
+Data: counts for faces 1 to 6 \\
+Expected: equal probabilities (16.67\%)
+\end{frame}
+
+\end{document}
+
+
+3. dice.sas
+
+data dice;
+  input Face Count;
+  datalines;
+1 8
+2 12
+3 9
+4 11
+5 10
+6 10
+;
+run;
+
+proc freq data=dice;
+  tables Face / chisq testp=(16.67 16.67 16.67 16.67 16.67 16.67);
+  weight Count;
+run;
+
+
+---
+
+4. coin.sas
+
+data coin;
+  input Side $ Count;
+  datalines;
+Heads 58
+Tails 42
+;
+run;
+
+proc freq data=coin;
+  tables Side / chisq testp=(50 50);
+  weight Count;
+run;
+
+
+---
+
+5. mendel.sas
+
+data peas;
+  input Color $ Count;
+  datalines;
+Yellow 290
+Green 110
+;
+run;
+
+proc freq data=peas;
+  tables Color / chisq testp=(75 25);
+  weight Count;
+run;
+
+
+---
+
+6. hardy_weinberg.sas
+
+data hw;
+  input Genotype $ Count;
+  datalines;
+AA 50
+Aa 30
+aa 20
+;
+run;
+
+proc freq data=hw;
+  tables Genotype / chisq testp=(49 42 9);
+  weight Count;
+run;
+
+
+---
+
+7. dice.csv
+
+Face,Count
+1,8
+2,12
+3,9
+4,11
+5,10
+6,10
+
+
+---
+
+8. coin.csv
+
+Side,Count
+Heads,58
+Tails,42
+
+
+---
+
+9. mendel.csv
+
+Color,Count
+Yellow,290
+Green,110
+
+
+---
+
+10. hardy_weinberg.csv
+
+Genotype,Count
+AA,50
+Aa,30
+aa,20
+
+
+---
+
+11. quiz.tex
+
+
+\section*{Chi-square Quiz}
+
+1. Write the Chi-square formula. \\
+2. When do you use the goodness-of-fit test? \\
+3. What are degrees of freedom for 4 categories? \\
+
+\end{document}
+
+
+12. answer_key.tex
+
+\documentclass[12pt]{article}
+\begin{document}
+
+\section*{Answer Key}
+
+1. \chi^2 = \sum \frac{(O - E)^2}{E} \\
+2. To compare observed vs. expected frequencies in one categorical variable. \\
+3. Degrees of freedom = 3 (number of categories - 1) \\
+
+\end{document}
+
+
+---
+
+13. README.md
+
+# Chi-square Teaching Module
+
+## Contents
+
+- chi_square_handout.tex : Full handout LaTeX source
+- chi_square_slides.tex : Beamer slides LaTeX source
+- dice.sas : SAS script for fair die test
+- coin.sas : SAS script for fair coin test
+- mendel.sas : SAS script for Mendelian ratio test
+- hardy_weinberg.sas : SAS script for HW equilibrium test
+- dice.csv : Example CSV data for dice
+- coin.csv : Example CSV data for coin
+- mendel.csv : Example CSV data for Mendelian peas
+- hardy_weinberg.csv : Example CSV data for HW
+- quiz.tex : Quiz LaTeX source
+- answer_key.tex : Answer key LaTeX source
+
+## Instructions
+
+1. Compile .tex files using pdflatex or your LaTeX editor.
+2. Run .sas files in SAS or SAS University Edition.
+3. Use CSVs to import data if needed.
+4. Edit author/title as needed.
+
+
+---
+
+If you want me to generate scripts or instructions for zipping these, just say so!
+Otherwise, copy these into files with the exact names, and you have your full teaching module ready.
+
+Need help with anything else?
+
+

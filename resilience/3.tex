@@ -1,0 +1,560 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{lipsum}       % placeholder text
+\usepackage{setspace}
+\usepackage{afterpage}
+\usepackage{caption}
+\usepackage{ulem}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes}
+\usepackage{sectsty}
+
+% ===== Color Definitions =====
+\definecolor{titleColor}{HTML}{800000}        % Maroon
+\definecolor{sectionColor}{HTML}{4682B4}      % SteelBlue
+\definecolor{textHighlight}{HTML}{DAA520}     % Goldenrod
+\definecolor{backgroundColor}{HTML}{F0F8FF}   % AliceBlue
+\definecolor{emphasisColor}{HTML}{228B22}     % ForestGreen
+\definecolor{subsectionColor}{HTML}{6A5ACD}   % SlateBlue
+
+% ===== Apply Section Colors =====
+\sectionfont{\color{sectionColor}}
+\subsectionfont{\color{subsectionColor}}
+
+% ===== Citation & Hyperlinks =====
+\usepackage{cite}  % keep numeric compressed citations
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}  % must be last
+
+
+
+
+
+
+% ===== Title & Author Info =====
+\title{\color{titleColor}{\textbf{\Huge Resilience, Perceived Danger, and Work Attendance of Sudanese Healthcare Workers In War Zones: The April 2023 Armed Conflict}}}
+\author{
+    1-Maryam Mohamed\textsuperscript{*}\thanks{\texttt{mariam.jack55@yahoo.com}, University of Khartoum, Khartoum, Sudan} \\
+    2-Sami Hassan\thanks{\texttt{sami.mo.al.ha@gmail.com}, University of Khartoum, Khartoum, Sudan} \\
+    3-Abubakr Mahmoud\thanks{\texttt{abubakr.m.i.mahmoud95@gmail.com}, University of Khartoum, Khartoum, Sudan} \\
+    4-Laila Osman\thanks{\texttt{Lylababiker@gmail.com}, University of Khartoum, Khartoum, Sudan} \\
+    5-Huda Ahmed\thanks{\texttt{hudamagdi16@gmail.com}, University of Khartoum, Khartoum, Sudan} \\
+    6-Alameen Osama Abdalgadir Abass\thanks{\texttt{ameenosama52@gmail.com}, Alnau hospital, Omdurman, Sudan} \\
+    7-Elmoez abdoalazeem Omer mhadey\thanks{\texttt{elmo3z234@gmail.com}, University of Khartoum, Khartoum, Sudan} \\
+    8-Elharith Hatim Elhag Abdelwahid\thanks{\texttt{elharithhatim@gmail.com}, University of Science and Technology, Khartoum, Sudan; Albuluk Specialized Hospital for Children} \\
+    9-Hiba Hamad\thanks{\texttt{hibakamil2@gmail.com}, University of Khartoum, Khartoum, Sudan} \\
+    10-Mohamed Osman Abdalla Osman\thanks{\texttt{mo929569609@gmail.com}, Karary university, Omdurman, Sudan} \\
+    \small{\textsuperscript{*}Corresponding author}
+}
+\date{} % Removes the default date
+
+\begin{document}
+
+\maketitle
+
+
+\newpage 
+
+\begin{abstract}
+\noindent \textbf{Background:} Traumatic war events can impair healthcare workers functioning and psychological wellbeing. We aim to assess Sudanese healthcare workers resilience, attendance, and perceived sense of danger in active conflict zones. \\
+\textbf{Methods:} We conducted a cross-sectional study (January and March 2025) in four major public hospitals operating in combat zones, Omdurman city. Participants included doctors, nurses, lab technicians, and Pharmacists. We used a self-administered questionnaire assessing: sociodemographics, traumatic exposure, Connor-Davidson Resilience Scale-10, Solomon and Prager adapted Sense of Danger Inventory, and work attendance. Non-parametric tests, chi-square/Fisher’s exact tests, Spearman’s correlation, and multivariable linear regression were performed using SPSS v27, with significance set at $p < 0.05$. \\
+
+
+\textbf{Results:} Among 325 participants (mean age 28.3 $\pm$ 4.9 year; female (57.2\%), (60\%) reported property damage, with personal (21\%) or family (49\%) injury, and workplace security escalations (41\%), while utilization of support services was limited. Attendance was higher among males, single workers, those with crisis training, and without personal or family injuries. Median resilience score was 24.00 (IQR = 12.00) with (68.6\%) having low resilience, associated with male gender, higher religiosity, crisis training, full attendance, and hospital assignment. Median sense of danger was high (Md = 14.0), particularly among pharmacists/lab technicians and Albuluk staff, it was associated with security escalations and lack of group activities. Resilience and sense of danger showed a weak but significant positive correlation (rho = 0.178, $p$ = 0.001). \\
+\textbf{Conclusion:} Sudanese healthcare workers in conflict zones exhibited low resilience and high perceived danger, influenced by gender, crisis training, and workplace security. These findings underscore the need for urgent mental health and safety interventions to sustain this critical workforce.
+
+\vspace{1em}
+\noindent \textbf{Keywords:} Resilience, Sense of Danger, Work attendance, healthcare workers, armed conflict, war, Sudan
+\end{abstract}
+
+\section{Introduction}
+Traumatic events lead to severe mental health problems (including anxiety, depression, and post-traumatic stress disorder) in approximately 10\% of individuals exposed to trauma, with an additional 10\% developing behavioral issues that affect their daily functioning, as estimated by the World Health Organization (1,2).
+
+Resilience is an important determinant of mental health outcomes after traumatic events. It is defined as the ability to recover after hard times and gain strength from the recovery process (3). Within healthcare systems resilience is crucial to maintain services during crisis (4). Factors proved by studies to foster Resilience include: self-protection measures, internal coping mechanisms such as faith and patriotism, and external support including international assistance and training (4).
+
+A high perceived sense of danger among healthcare workers in conflict zones was found to lower their resilience and capacity to recover, elevate their stress levels, and affect their report to duty (5-7). Studies have linked a high perceived sense of danger to higher absenteeism rates (7).
+
+An outbreak of armed conflict erupted in Sudan on April 15, 2023, triggering a severe humanitarian crisis (8). It damaged the health system as only one-third of healthcare facilities in conflict zones have left operational after the destruction of hospitals, disruption of medical supplies, migration of healthcare professionals, and the increased cost of the already underfunded healthcare sector (9).
+
+This conflict and its consequences left healthcare workers operating under immense psychological, physical and professional stress: poor working conditions, Lack of medical supplies, insufficient infrastructure, interrupted salaries and physical threats including abduction, targeted attacks, and insecurity (9,10). Reports of military attacks on health care workers in Sudan reflect the broader global trend of targeting healthcare workers during conflicts, compromising the health system’s resilience (6).
+
+Conflict indeed created intense pressure on healthcare workers. Stressful situations generally impair workers’ ability to function effectively, but their individual resilience during these times significantly influences their functionality (11). Limited literature discusses the resilience and coping mechanisms of Sudanese healthcare workers during stressful events, and to the best of our knowledge, no studies have discussed their resilience and perceived sense of danger during wartime; however, the conflict continues to challenge their mental well-being and safety during violence and threats. Here comes the purpose of our research: to highlight the struggle of Sudanese healthcare workers and study the factors that might potentially improve their resilience or decrease it, and what role the perceived sense of danger plays in this issue.
+
+\section{Method}
+\subsection{Study Design and Setting}
+This cross-sectional study was conducted from January to March 2025. The research was carried out in four major public hospitals in Omdurman city, Khartoum state: Al Nau Teaching Hospital, Alsaudi Teaching Hospital, Albuluk Teaching Hospital, and BirAlwaldeen Teaching Hospital.
+
+The unique context of this study is that these facilities were the only public hospitals that remained almost fully operational in Khartoum State three cities (Khartoum, Bahri, and Omdurman) during the war that erupted in April 2023. Despite their continued operation, these hospitals were located within or near the perimeter of direct military clashes. This proximity exposed them to frequent and continuous indiscriminate shelling and missile impacts in their vicinity and, in some cases, directly on their buildings. This critical security situation imposed immense operational and psychological challenges on both medical staff and patients.
+
+\subsection{Study Population}
+This study included healthcare professionals including doctors, nurses, laboratory technicians and pharmacists working in the selected hospitals during the study period who had been employed during the war for at least one month. Individuals were excluded if they were non-medical volunteers, unregistered house officers, declined to participate or were unable to provide informed consent. No discrimination regarding gender, or ethnicity was made.
+
+\subsection{Sample Size and Sampling Technique}
+A stratified random allocation was employed to ensure proportional representation of healthcare professionals across the four hospitals included in the study. This approach was chosen due to the heterogeneous distribution of staff among the hospitals, thereby enhancing the generalizability and representativeness of the findings.
+
+\subsubsection{Stratification and Population Distribution}
+The total population of eligible healthcare professionals (N = 2,030) was stratified by hospital as follows:
+\begin{itemize}[noitemsep]
+\item Alnau Hospital: 700 professionals
+\item Alsaudi Hospital: 440 professionals
+\item Albuluk Hospital: 540 professionals
+\item Bir Alwaldeen Hospital: 350 professionals
+\end{itemize}
+
+The required sample size was calculated using the standard formula for proportions with a 95\% confidence level and 5\% margin of error:
+\[
+n = \frac{Z^2 \times p \times (1-p)}{e^2} = \frac{(1.96)^2 \times 0.5 \times (1-0.5)}{(0.05)^2} = 384
+\]
+To adjust for the finite population, the sample size was corrected using:
+\[
+n_{\text{adjusted}} = \frac{n}{1 + \frac{(n - 1)}{N}} = \frac{384}{1 + \frac{383}{2030}} \approx 322
+\]
+
+\subsubsection{Proportional Allocation by Stratum}
+The adjusted sample size was distributed proportionally across the four hospitals using the formula:
+\[
+n_i = \frac{N_i \times n_{\text{adjusted}}}{N}
+\]
+Resulting in the following allocations:
+\begin{itemize}[noitemsep]
+\item Alnau Hospital: 132 participants
+\item Alsaudi Hospital: 86 participants
+\item Albuluk Hospital: 103 participants
+\item Bir Alwaldeen Hospital: 66 participants
+\end{itemize}
+On the hospital level participants were selected conveniently due to the escalating events and the sensitivity of hospital staff personnel information.
+
+\subsection{Data Collection and Management}
+Data were collected using a self-administered questionnaire adopted from previous similar studies and validated scales (7,12,13). Participants were provided with the google form version of the questionnaire and given the option to fill it in person or later through their WhatsApp or telegram. All questionnaires were anonymous. The questionnaire consisted of five sections:
+\begin{enumerate}[noitemsep]
+\item \textbf{Sociodemographic:} included questions about general background information and professional status.
+\item \textbf{Exposure to terrorist events:} 9 Questions about past experiences with terrorism, including damage to property, physical or psychological injuries, exposure at previous workplaces, and utilization of support services. (7,2)
+\item \textbf{Individual Resilience:} Assessed with the 10-item Connor-Davidson Resilience Scale (CD-RISC-10)(12,2), a 5-point Likert scale (0–4) measuring aspects such as flexibility and optimism. Total scores range from 0 to 40, with higher scores reflecting greater resilience. The scale's reliability was high ($\alpha = .90$).
+\item \textbf{Sense of Danger:} Evaluated using the six-item Solomon and Prager Sense of Danger scale (13,2). This 5-point Likert scale (0–4) measured perceived danger across personal, family, workplace, and national domains. The reliability for this measure was high ($\alpha = .85$).
+\item \textbf{Work attendance:} recorded as full/ partial or totally absent using three items and additional questions about factors that made it difficult or easier to report to work. (7,3).
+\end{enumerate}
+
+\subsection{Statistical Analysis}
+Data were analyzed using SPSS software, version 27. Continuous outcomes (resilience and sense-of-danger scores), which were non-normally distributed, are summarized as medians with interquartile ranges (IQR), while categorical variables are presented as frequencies and percentages. Group comparisons were performed using the Mann–Whitney U test for predictors with two levels, and the Kruskal–Wallis H test with Bonferroni-adjusted post hoc comparisons for predictors with three or more levels. Associations between categorical factors and work attendance were assessed using the chi-square test or Fisher’s exact test when expected cell counts were $<5$. The correlation between resilience and perceived danger was evaluated using Spearman’s rank-order correlation. Finally, two multivariable linear regression models (one for each outcome) were constructed, with predictors selected based on theoretical considerations. Model assumptions, including linearity, homoscedasticity, absence of multicollinearity, and independence of residuals, were checked and met. Statistical significance was set at $\alpha = 0.05$.
+
+
+
+
+\section{Results}
+\subsection{Sociodemographic Characteristics}
+The study included 325 participants, with a mean age of 28.3 years (SD = 4.9). The majority were female (57.2\%), single (76.3\%), without children (63.4\%), and living with family (83.7\%). Most reported a monthly income below 500,000 SDG (85.2\%) and moderate perceived religiosity (77.5\%). Only two participants were of non-Sudanese nationality. Detailed demographic characteristics are presented in Table 1.
+
+Regarding professional roles, participants were distributed across various medical sectors, with house officers (27.7\%) and medical officers (25.5\%) being the most common. The majority (57.2\%) relied on public transportation to reach work. Only 39.1\% had received training in crisis management, and 34.2\% were based at Alnau Hospital. Additional details on professional profiles are provided in Table 2.
+
+% Table 1: Demographics
+\begin{table}[h!]
+\centering
+\caption{Sociodemographic Characteristics of Participants (N=325)}
+\label{tab:table1}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Variable} & \textbf{n} & \textbf{\%} \\
+\midrule
+\textbf{Age} & & \\
+\quad 18–40 & 314 & 96.6\% \\
+\quad 41 and above & 11 & 3.4\% \\
+\midrule
+\textbf{Gender} & & \\
+\quad Male & 139 & 42.8\% \\
+\quad Female & 186 & 57.2\% \\
+\midrule
+\textbf{Marital Status} & & \\
+\quad Single & 248 & 76.3\% \\
+\quad Married & 71 & 21.8\% \\
+\quad Divorced & 3 & 0.9\% \\
+\quad Widowed & 3 & 0.9\% \\
+\midrule
+\textbf{Dependents in household?} & & \\
+\quad Yes & 138 & 42.5\% \\
+\quad No & 187 & 57.5\% \\
+\midrule
+\textbf{Children’s age} & & \\
+\quad less than 2 years & 35 & 10.8\% \\
+\quad 2-10 & 69 & 21.2\% \\
+\quad 11-17 & 28 & 8.6\% \\
+\quad 18+ & 15 & 4.6\% \\
+\quad No children & 206 & 63.4\% \\
+\midrule
+\textbf{Perceived religiosity} & & \\
+\quad Low & 21 & 6.5\% \\
+\quad Moderate & 252 & 77.5\% \\
+\quad High & 52 & 16.0\% \\
+\midrule
+\textbf{Nationality} & & \\
+\quad Sudanese & 323 & 99.4\% \\
+\quad Non-Sudanese & 2 & 0.6\% \\
+\midrule
+\textbf{Living arrangements} & & \\
+\quad Alone & 40 & 12.3\% \\
+\quad In dorms & 13 & 4.0\% \\
+\quad With family & 272 & 83.7\% \\
+\midrule
+\textbf{Monthly income in SDG} & & \\
+\quad Less than 500000 & 277 & 85.2\% \\
+\quad 500000–1000000 & 40 & 12.3\% \\
+\quad More than 1000000 & 8 & 2.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 2: Work related demographics
+\begin{table}[h!]
+\centering
+\caption{Work-Related Characteristics of Participants (N=325)}
+\label{tab:table2}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Variable} & \textbf{n} & \textbf{\%} \\
+\midrule
+\textbf{Occupation} & & \\
+\quad Consultant & 4 & 1.2\% \\
+\quad House officer & 90 & 27.7\% \\
+\quad Lab technician & 21 & 6.5\% \\
+\quad Medical officer & 83 & 25.5\% \\
+\quad Nurse & 62 & 19.1\% \\
+\quad Pharmacist & 16 & 4.9\% \\
+\quad Registrar & 44 & 13.5\% \\
+\quad Specialist & 5 & 1.5\% \\
+\midrule
+\textbf{Hospital} & & \\
+\quad Alnau & 111 & 34.2\% \\
+\quad Albuluk & 86 & 26.5\% \\
+\quad Alsuadi & 70 & 21.5\% \\
+\quad Bir Alwaldeen & 58 & 17.8\% \\
+\midrule
+\textbf{Transportation to work} & & \\
+\quad Public transportation & 186 & 57.2\% \\
+\quad Hospital Shuttle services & 82 & 25.2\% \\
+\quad Private vehicle & 45 & 13.8\% \\
+\quad Walking/Bicycle & 12 & 3.7\% \\
+\midrule
+\textbf{Crisis management training} & & \\
+\quad Yes & 127 & 39.1\% \\
+\quad No & 198 & 60.9\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+\afterpage{\clearpage} % Helps with table placement
+
+\subsection{Exposure to Terrorist Events and Use of Support Services}
+With respect to exposure to violence, 60\% of participants reported property damage due to terrorism, 21\% were physically injured, 49\% had a family member injured, and 41\% experienced security escalations at their workplace.
+
+The utilization of various support services was generally low, as detailed in Table 3.
+
+\begin{table}[h!]
+\centering
+\caption{Exposure to Violence and Utilization of Support Services (N=325)}
+\label{tab:exposure}
+\begin{tabular}{l r r}
+\toprule
+\textbf{Variable} & \textbf{n} & \textbf{\%} \\
+\midrule
+\textbf{Property damaged by terrorism?} & & \\
+\quad Yes & 166 & 51.1\% \\
+\quad No & 159 & 48.9\% \\
+\midrule
+\textbf{Exposed to security escalations at a previous workplace?} & & \\
+\quad Yes & 133 & 40.9\% \\
+\quad No & 192 & 59.1\% \\
+\midrule
+\textbf{Used employee daycare services?} & & \\
+\quad Yes & 49 & 15.1\% \\
+\quad No & 276 & 84.9\% \\
+\midrule
+\textbf{Used hospital-provided sleeping arrangements?} & & \\
+\quad Yes & 113 & 34.8\% \\
+\quad No & 212 & 65.2\% \\
+\midrule
+\textbf{Used personal support from hospital staff?} & & \\
+\quad Yes & 39 & 12.0\% \\
+\quad No & 286 & 88.0\% \\
+\midrule
+\textbf{Participated in workplace group support?} & & \\
+\quad Yes & 57 & 17.5\% \\
+\quad No & 268 & 82.5\% \\
+\midrule
+\textbf{Used a community support center?} & & \\
+\quad Yes & 39 & 12.0\% \\
+\quad No & 286 & 88.0\% \\
+\bottomrule
+\end{tabular}
+\\
+\smallskip
+\footnotesize *The questions presented in this table are abbreviated for clarity. The original wording is available upon request.
+\end{table}
+
+\subsection{Attendance at Work During Wartime}
+Analysis of work attendance showed that a majority of participants (66.77\%) maintained their presence at work, while 33.23\% reported partial or full absenteeism.
+Several demographic and situational factors were significantly associated with work attendance during wartime.
+
+Attendance was significantly higher among males compared to females (74.8\% vs. 60.8\%; $p = 0.011$). Single participants had the highest attendance rate (71.0\%), while married and widowed participants were more likely to remain at home ($p = 0.003$).
+
+Participants who were physically injured reported lower attendance compared to those who had not (49.3\% vs. 71.3\%; $p = 0.001$). Similarly, having an injured family member was associated with lower attendance (57.9\% vs. 75.3\%; $p = 0.001$).
+
+However, attendance varied significantly by role ($p = 0.027$), with the highest rates among medical officers (75.9\%) and house officers (73.3\%), and the lowest among pharmacists (37.5\%).
+
+Crisis management training significantly affected the attendance level. Participants who had received training had higher attendance (74.8\% vs. 61.6\%; $p = 0.014$). As well, attendance also varied significantly by hospital ($p = 0.001$), with the highest attendance at Albuluk Hospital (90.7\%) and the highest absenteeism at Alsuadi Hospital (51.4\%).
+
+\begin{table}[h!]
+\centering
+\caption{Factors Associated with Work Attendance During Wartime}
+\label{tab:attendance}
+\small
+\begin{tabular}{l c c}
+\toprule
+\textbf{Variable} & \textbf{Absenteeism (Full or partial) \% (n)} & \textbf{No Absenteeism \% (n)} \\
+\midrule
+\textbf{Overall attendance} & 33.23\% (108) & 66.77\% (217) \\
+\midrule
+\textbf{Gender} & & \\
+\quad Male & 25.2\% (35) & 74.8\% (104) \\
+\quad Female & 39.2\% (73) & 60.8\% (113) \\
+\midrule
+\textbf{Marital Status} & & \\
+\quad Single & 29.0\% (72) & 71.0\% (176) \\
+\quad Married & 45.1\% (32) & 54.9\% (39) \\
+\quad Divorced & 33.3\% (1) & 66.7\% (2) \\
+\quad Widowed & 100.0\% (3) & 0.0\% (0) \\
+\midrule
+\textbf{Occupation} & & \\
+\quad Consultant & 50.0\% (2) & 50.0\% (2) \\
+\quad House officer & 26.7\% (24) & 73.3\% (66) \\
+\quad Lab technician & 47.6\% (10) & 52.4\% (11) \\
+\quad Medical officer & 24.1\% (20) & 75.9\% (63) \\
+\quad Nurse & 40.3\% (25) & 59.7\% (37) \\
+\quad Pharmacist & 62.5\% (10) & 37.5\% (6) \\
+\quad Registrar & 34.1\% (15) & 65.9\% (29) \\
+\quad Specialist & 40.0\% (2) & 60.0\% (3) \\
+\midrule
+\textbf{Hospital} & & \\
+\quad Alnau & 45.0\% (50) & 55.0\% (61) \\
+\quad Albuluk & 9.3\% (8) & 90.7\% (78) \\
+\quad Alsuadi & 51.4\% (36) & 48.6\% (34) \\
+\quad Bir Alwaldeen & 24.1\% (14) & 75.9\% (44) \\
+\midrule
+\textbf{Crisis management training} & & \\
+\quad Yes & 25.2\% (32) & 74.8\% (95) \\
+\quad No & 38.4\% (76) & 61.6\% (122) \\
+\midrule
+\textbf{Physically injured by terrorism} & & \\
+\quad Yes & 50.7\% (34) & 49.3\% (33) \\
+\quad No & 28.7\% (74) & 71.3\% (184) \\
+\midrule
+\textbf{Family member injured by terrorism} & & \\
+\quad Yes & 42.1\% (67) & 57.9\% (92) \\
+\quad No & 24.7\% (41) & 75.3\% (125) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Resilience}
+Median resilience scores was 24.00 (IQR = 12.00), with most participants exhibiting low resilience (68.62\%) and only 10.46\% demonstrating high resilience (Figure 1). Non-parametric analyses identified significant associations between resilience and demographic/work-related factors (Table 5).
+
+Regarding demographic factors, males were significantly more resilient than females ($p < 0.001$), and non-parents showed higher resilience than parents ($p = 0.024$). Resilience increased with higher religiosity ($p = 0.006$), with the low-religiosity group exhibiting significantly lower resilience than moderate ($p = 0.005$) and high ($p = 0.014$) groups.
+
+Resilience varied significantly by occupation ($p < 0.001$). Specialists/Registrars were significantly more resilient than Nurses ($p = 0.002$) and Pharmacist/Lab Technicians ($p = 0.014$). Medical Officers also outperformed Nurses ($p = 0.031$).
+
+Hospital assignment significantly impacted resilience ($p < 0.001$). Staff at Bir Alwaldeen Hospital reported significantly lower resilience than those at Alsuadi ($p = 0.002$), Albuluk ($p < 0.001$), and Alnau ($p < 0.001$). Staff receiving crisis management training had higher resilience than untrained peers ($p = 0.002$), and full work attendance correlated with greater resilience than partial/none ($p = 0.001$).
+
+Moreover, non-users of personal support talks ($p = 0.004$) and group activities ($p = 0.004$) exhibited significantly higher resilience than users.
+
+\begin{table}[h!]
+\centering
+\caption{Summary of Non-Parametric Analyses of Factors Associated with Resilience Scores}
+\label{tab:resilience}
+\small
+\begin{tabular}{l r r r r r}
+\toprule
+\textbf{Variable} & \textbf{n} & \textbf{Md} & \textbf{Test Statistic} & \textbf{p-value} & \textbf{Effect Size} \\
+\midrule
+\textbf{Gender} & & & $U = 9986.50$ & $< 0.001$ & $r = 0.20$ \\
+\quad Male & 139 & 27.00 & & & \\
+\quad Female & 186 & 22.50 & & & \\
+\midrule
+\textbf{Parenthood} & & & $U = 10415.50$ & $0.024$ & $r = 0.13$ \\
+\quad Non-Parents & 206 & 25.00 & & & \\
+\quad Parents & 119 & 22.00 & & & \\
+\midrule
+\textbf{Religiosity} & & & $H(2) = 10.240$ & $0.006$ & $\eta^2 = 0.03$ \\
+\quad Low & 21 & 17.00 & & & \\
+\quad Moderate & 252 & 25.00 & & & \\
+\quad High & 52 & 26.00 & & & \\
+\midrule
+\textbf{Occupation} & & & $H(5) = 24.572$ & $< .001$ & $\eta^2 = 0.08$ \\
+\quad Specialist/Registrar & 49 & 28.00 & & & \\
+\quad Medical officer & 83 & 26.00 & & & \\
+\quad House officer & 90 & 24.00 & & & \\
+\quad Pharmacist/Lab technician & 37 & 22.00 & & & \\
+\quad Nurse & 62 & 20.00 & & & \\
+\quad Consultant & 4 & 10.00 & & & \\
+\midrule
+\textbf{Hospital} & & & $H(3) = 32.486$ & $< 0.001$ & $\eta^2 = 0.10$ \\
+\quad Alnau & 111 & 28.00 & & & \\
+\quad Albuluk & 86 & 26.00 & & & \\
+\quad Alsuadi & 70 & 23.50 & & & \\
+\quad Bir Alwaldeen & 58 & 19.00 & & & \\
+\midrule
+\textbf{Crisis Training} & & & $U = 10006.50$ & $0.002$ & $r = 0.17$ \\
+\quad Received & 127 & 28.00 & & & \\
+\quad Not Received & 198 & 23.00 & & & \\
+\midrule
+\textbf{Work Attendance} & & & $U = 14296.50$ & $0.001$ & $r = 0.18$ \\
+\quad Full & 217 & 27.00 & & & \\
+\quad Partial/None & 108 & 21.00 & & & \\
+\midrule
+\textbf{Support Talks} & & & $U = 7179.00$ & $0.004$ & $r = 0.16$ \\
+\quad Not Used & 286 & 25.00 & & & \\
+\quad Used & 39 & 19.00 & & & \\
+\midrule
+\textbf{Group Activity} & & & $U = 9468.00$ & $0.004$ & $r = 0.16$ \\
+\quad Not Participated & 286 & 25.00 & & & \\
+\quad Participated & 57 & 20.00 & & & \\
+\bottomrule
+\end{tabular}
+\\
+\smallskip
+\footnotesize Note. Md = Median; n = sample size; U = Mann-Whitney U test statistic; H = Kruskal-Wallis H test statistic; r = effect size correlation coefficient; $\eta^2$ = eta-squared.
+\end{table}
+
+\subsection{Perceived Sense of Danger}
+The median sense of danger score was 14.00 (IQR = 7.00), as illustrated in Figure 2, which shows that over 70\% of participants had a high sense of danger. The associations between sense of danger and various work-related and personal factors are summarized in Table 6.
+
+A Kruskal-Wallis H test indicated a statistically significant difference in sense of danger scores across occupational groups, $H(5) = 20.338$, $p = .001$. Post-hoc comparisons with Bonferroni correction revealed that Pharmacists/Lab technicians (Md = 18.00, n = 37) had significantly higher sense of danger scores compared to Consultants (Md = 8.50, n = 4; adj. p = .018), House officers (Md = 14.00, n = 90; adj. p = .005), Nurses (Md = 13.00, n = 62; adj. p = .011), and Medical officers (Md = 13.00, n = 83; adj. p = .038).
+
+Sense of danger also differed significantly by hospital, $H(3) = 8.484$, $p = .037$. Staff at Bir Alwaldeen Hospital (Md = 13.00, n = 58) reported a significantly lower sense of danger than staff at Albuluk Hospital (Md = 15.00, n = 86; adj. p = .030).
+
+As shown in Table 6, participants who had experienced security escalation events reported significantly higher sense of danger scores than those who had not. Similarly, those without a child aged 11--17 years (Md = 14.00) reported higher scores than those with a child in that age group (Md = 12.00). Finally, individuals who did not participate in group activities (Md = 14.00) reported higher scores than those who did (Md = 12.00).
+
+\begin{figure}[h!]
+\centering
+% \includegraphics[width=0.8\textwidth]{figure2-sense-of-danger-distribution.png}
+\caption{Distribution of sense of danger levels among healthcare workers}
+\label{fig:senseofdanger}
+\end{figure}
+
+\begin{table}[h!]
+\centering
+\caption{Summary of Non-Parametric Analyses for Sense of Danger Scores}
+\label{tab:danger}
+\small
+\begin{tabular}{l r r r r r}
+\toprule
+\textbf{Variable} & \textbf{n} & \textbf{Md} & \textbf{Test Statistic} & \textbf{p-value} & \textbf{Effect Size} \\
+\midrule
+\textbf{Occupation} & & & $H(5) = 20.338$ & $.001$ & $\eta^2 = .06$ \\
+\quad Pharmacist/Lab technician & 37 & 18.00 & & & \\
+\quad Specialist/Registrar & 49 & 15.00 & & & \\
+\quad House officer & 90 & 14.00 & & & \\
+\quad Medical officer & 83 & 13.00 & & & \\
+\quad Nurse & 62 & 13.00 & & & \\
+\quad Consultant & 4 & 8.50 & & & \\
+\midrule
+\textbf{Hospital} & & & $H(3) = 8.484$ & $.037$ & $\eta^2 = .03$ \\
+\quad Albuluk & 86 & 15.00 & & & \\
+\quad Alnau & 111 & 14.00 & & & \\
+\quad Alsuadi & 70 & 13.00 & & & \\
+\quad Bir Alwaldeen & 58 & 13.00 & & & \\
+\midrule
+\textbf{Child 11-17 Yrs} & & & $U = 5217.50$ & $.025$ & $r = .12$ \\
+\quad Without Child & 297 & 14.00 & & & \\
+\quad With Child & 28 & 12.00 & & & \\
+\midrule
+\textbf{Escalation Exp.} & & & $U = 11118.00$ & $.047$ & $r = .11$ \\
+\quad Exposed & 133 & 14.00 & & & \\
+\quad Not Exposed & 192 & 13.00 & & & \\
+\midrule
+\textbf{Group Activity} & & & $U = 9157.50$ & $.017$ & $r = .13$ \\
+\quad Not Participated & 268 & 14.00 & & & \\
+\quad Participated & 57 & 12.00 & & & \\
+\bottomrule
+\end{tabular}
+\\
+\smallskip
+\footnotesize Note. Md = Median; n = sample size; U = Mann-Whitney U test statistic; H = Kruskal-Wallis H test statistic; r = effect size correlation coefficient; $\eta^2$ = eta-squared.
+\end{table}
+
+\subsection{Relationship Between Resilience and Sense of Danger}
+A Spearman's rank-order correlation examining the relationship between resilience and the perceived sense of danger revealed a weak, positive, and statistically significant correlation between the two variables, $\rho$ (325) = 0.178, $p$ = 0.001. The coefficient of determination ($\rho)^2$ was .0317, suggesting that the two variables shared approximately 3.17\% of their variance.
+
+\subsection{Multivariable Analysis}
+\textbf{Resilience:} Linear regression analysis revealed significant predictors of resilience. The model was statistically significant ($F = 5.747$, $p < .001$) and accounted for 30.6\% of the variance in resilience scores ($R^2 = .306$). Higher resilience scores were significantly associated with a stronger perceived sense of danger ($p < .001$), higher work attendance ($p < .001$), certain job profiles ($p = .001$), participation in group activities ($p = .004$), use of personal support talks ($p = .012$), and older age groups ($p = .048$). In contrast, employment at certain hospitals ($p < .001$) and prior crisis management training ($p = .004$) were significantly associated with lower resilience scores.
+
+\textbf{Sense of Danger:} Linear regression analysis also identified significant predictors of perceived sense of danger. The model was statistically significant ($F = 2.145$, $p = .002$) and explained 14.1\% of the variance ($R^2 = .141$). A higher sense of danger was significantly associated with higher resilience ($p < .001$), whereas previous exposure to security escalation events was significantly associated with a lower perceived sense of danger ($p = .021$).
+
+\section{Discussion}
+We analyzed resilience, perceived sense of danger, and work attendance during wartime, looking to pinpoint the factors among healthcare professionals (HCPs) in the only operational hospitals within Khartoum state during the fighting.
+
+Healthcare workers’ attendance in conflict areas is influenced by both demographic and situational factors. In our study, the overall attendance was good with two thirds of participants maintaining full attendance. Better attendance was noted among males and single individuals, likely due to lower caregiving responsibilities and personal safety concerns. Similar trends have been documented in Yemen and Sierra Leone \cite{khader2015factors, wurie2016retention}.
+
+Those who did not suffer personal or familial injuries within the context of the conflict were more likely to attend, illustrating the ways violence directly affects workforce participation. Such findings have been documented in Syria, where personal and familial trauma diminished healthcare workers’ capacities to report to work \cite{fouad2017health, witter2017providing}.
+
+The higher absenteeism at Al-Saudi Hospital may stem from geographic location, administrative issues, or a combination of both. Previous research has linked high-risk area facilities with poor staff attendance and high vacancy rates \cite{pavignani2009analysing}.
+
+In Uganda, studies noted physicians maintained higher presence during crises, so it may be that medical and house officers perceived stronger professional commitment or indispensability when compared with other cadres. They certainly showed better attendance than most \cite{ssengooba2015health}.
+
+The median resilience score for participants is concerningly low since over two-thirds demonstrated poor resilience. This supports previous research from conflict-perturbed health systems within Gaza, Libya, Israel, and Northern Ethiopia, which documented the enduring impact of insufficient security and relentless working conditions on the psychological functioning and well-being of healthcare personnel \cite{sberro2023resilience, alnassar2023mental, abugraga2023health, bashir2022religiosity}.
+
+The significant number of participants experiencing direct violence, such as physical injuries and damage to their property, was a key contributing factor. Resilience, as expected, was strongly associated with numerous demographic and occupational factors, including gender, permutation status, spirituality, professional rank, and prior exposure to crisis management training. Among these, males, non-parents, and those identifying as moderately to highly religious displayed greater resilience. This aligns with other studies demonstrating that internal belief systems alongside less caregiving responsibilities enhance adaptive capacity to stressors \cite{zaman2023parental, saleh2024barriers}.
+
+A substantial proportion of participants exhibited a heightened sense of danger, with pharmacists and laboratory technicians reporting the highest scores. This may reflect their comparatively less exposure to occupational stress prior to the escalation of events, in contrast to physicians and nurses, who are more accustomed to high-stress environments. Notably, only a small percentage of participants had prior training in crisis management, which may partially account for the elevated danger perception observed. Furthermore, a heightened sense of danger was positively associated with previous exposure to security escalations, while participants with children aged 11--17 demonstrated comparatively lower danger scores, potentially reflecting a protective desensitization effect or altered risk perception associated with parenthood.
+
+The statistically significant---but weak---positive correlation between sense of danger and resilience was unexpected. While prior studies have suggested that perceived danger generally undermines psychological coping capacity \cite{tadesse2023exposure}, our findings suggest that in high-stress environments, a heightened awareness of risk may coexist with stronger adaptive strategies, particularly for those with prior exposure or formal training. Alternatively, this may indicate the development of hypervigilant coping behaviors, a phenomenon documented in trauma-exposed populations \cite{stewart2022hypervigilance}.
+
+The findings of this study have important implications for both health system resilience and workforce sustainability in conflict-affected settings. The high levels of perceived danger and the predominance of low resilience among healthcare workers underscore the urgent need for structured psychosocial support and mental health services tailored to frontline staff. The lack of crisis management training among the majority of participants points to a critical gap in preparedness that could be addressed through targeted training initiatives. Additionally, these insights can inform institutional policies related to staff deployment, safety protocols, and supportive supervision in high-risk environments. Strengthening these systems not only safeguards the well-being of healthcare providers but also ensures continuity of care during periods of instability. Future research should explore the long-term psychological impacts of repeated exposure to insecurity and assess the effectiveness of resilience-building interventions.
+
+\section{Limitations}
+There are many limitations to this study. First of all, although all operating governmental hospitals in Khartoum state were included in this study, it was conducted in one state during the war although other states were in conflict too, this may limit the generalizability of results to the whole country.
+
+Moreover, this study was conducted amid the missile attacks on Omdurman which might have influenced participation rate due to internet connection issues and high workload on HCPs amid the attacks. Additionally, the self-reporting technique used might have influenced participants to present themselves in more socially accepted manners, even though the questionnaire was anonymous.
+
+Finally, the convenient sampling on hospital level may induce selection bias despite stratified random sampling on institutional level.
+
+\section*{Declarations}
+\subsection*{Ethics approval and consent to participate}
+This study was conducted in accordance with the principles of the Declaration of Helsinki. Participation was voluntary, and all participants provided informed consent before data collection. Confidentiality and anonymity were maintained by assigning unique identification codes and securely storing all data. No personally identifiable information was disclosed. Ethical approval was obtained from medical research ethics committee university of al Gadarif, approval number: GU/FM/REC/Q3.7.25.6
+
+\subsection*{Consent for publication}
+Not applicable.
+
+\subsection*{Availability of data and materials}
+The datasets used and analyzed during the current study are available from the corresponding author on reasonable request.
+
+\subsection*{Competing interests}
+The authors declare that they have no competing interests.
+
+\subsection*{Funding}
+This research received no external funding.
+
+\subsection*{Authors' contributions}
+MM and AM conceived the study and developed the overall concept. HA, LO, SH, MM, and AM jointly designed the study and developed the methodology. SH carried out the data analysis. AA, EM, EA, MO, and HH were responsible for data collection. All authors took part in drafting the manuscript, critically reviewed and approved the final version, and agreed to be accountable for the integrity of the work.
+
+\subsection*{Acknowledgement}
+It was conducted under the supervision of Student association of medical education and research (SAMER) university of Khartoum faculty of medicine.
+
+% References
+
+% Traditional BibTeX bibliography
+
+\bibliographystyle{unsrt}
+\nocite{*}
+
+\bibliography{ref}
+
+
+\end{document}
+
+

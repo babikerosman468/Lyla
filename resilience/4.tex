@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{afterpage}
+\usepackage{caption}
+\usepackage{ulem}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes}
+\usepackage{sectsty}
+\sectionfont{\color{blue}}
+\subsectionfont{\color{purple}}
+
+% Hyperlinks
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{cite}
+
+\begin{document}
+
+\section*{Introduction }
+
+Traumatic events lead to severe mental health problems (including anxiety, depression, and post-traumatic stress disorder) in approximately 10\% of individuals exposed to trauma, with an additional 10\% developing behavioral issues that affect their daily functioning, as estimated by the World Health Organization \cite{murthy2006mental, scholte2004mental}. 
+Resilience is an important determinant of mental health outcomes after traumatic events. It is defined as the ability to recover after hard times and gain strength from the recovery process \cite{yates2015resilience}. Within healthcare systems, resilience is crucial to maintain services during crisis \cite{witter2017experience}. Factors proved by studies to foster resilience include: self-protection measures, internal coping mechanisms such as faith and patriotism, and external support including international assistance and training \cite{witter2017experience}.
+
+A high perceived sense of danger among healthcare workers in conflict zones was found to lower their resilience and capacity to recover, elevate their stress levels, and affect their report to duty \cite{khader2015factors, wurie2016retention}. Studies have linked a high perceived sense of danger to higher absenteeism rates \cite{khader2015factors, wurie2016retention}. 
+An outbreak of armed conflict erupted in Sudan on April 15, 2023, triggering a severe humanitarian crisis \cite{sberro2023resilience}. It damaged the health system as only one-third of healthcare facilities in conflict zones remain operational after the destruction of hospitals, disruption of medical supplies, migration of healthcare professionals, and the increased cost of the already underfunded healthcare sector \cite{alnassar2023mental, abugraga2023health}. 
+This conflict and its consequences left healthcare workers operating under immense psychological, physical, and professional stress: poor working conditions, lack of medical supplies, insufficient infrastructure, interrupted salaries, and physical threats including abduction, targeted attacks, and insecurity \cite{bashir2022religiosity}. 
+
+Conflict indeed created intense pressure on healthcare workers. Stressful situations generally impair workers’ ability to function effectively, but their individual resilience during these times significantly influences their functionality \cite{zaman2023parental, saleh2024barriers}. Limited literature discusses the resilience and coping mechanisms of Sudanese healthcare workers during stressful events, and to the best of our knowledge, no studies have discussed their resilience and perceived sense of danger during wartime; however, the conflict continues to challenge their mental well-being and safety during violence and threats.
+\section*{ Discussion}
+
+
+Healthcare workers’ attendance in conflict areas is influenced by both demographic and situational factors. In our study, the overall attendance was good with two thirds of participants maintaining full attendance. Better attendance was noted among males and single individuals, likely due to lower caregiving responsibilities and personal safety concerns. Similar trends have been documented in Yemen and Sierra Leone \cite{khader2015factors, wurie2016retention}.
+Those who did not suffer personal or familial injuries within the context of the conflict were more likely to attend, illustrating the ways violence directly affects workforce participation. Such findings have been documented in Syria, where personal and familial trauma diminished healthcare workers’ capacities to report to work \cite{fouad2017health, witter2017providing}.
+The higher absenteeism at Al-Saudi Hospital may stem from geographic location, administrative issues, or a combination of both. Previous research has linked high-risk area facilities with poor staff attendance and high vacancy rates \cite{pavignani2009analysing}.
+In Uganda, studies noted physicians maintained higher presence during crises, so it may be that medical and house officers perceived stronger professional commitment or indispensability when compared with other cadres. They certainly showed better attendance than most \cite{ssengooba2015health}. 
+
+The median resilience score for participants is concerningly low since over two-thirds demonstrated poor resilience. This supports previous research from conflict-perturbed health systems within Gaza, Libya, Israel, and Northern Ethiopia, which documented the enduring impact of insufficient security and relentless working conditions on the psychological functioning and well-being of healthcare personnel \cite{sberro2023resilience, alnassar2023mental, abugraga2023health, bashir2022religiosity}.
+The significant number of participants experiencing direct violence, such as physical injuries and damage to their property, was a key contributing factor. Resilience, as expected, was strongly associated with numerous demographic and occupational factors, including gender, permutation status, spirituality, professional rank, and prior exposure to crisis management training. Among these, males, non-parents, and those identifying as moderately to highly religious displayed greater resilience. This aligns with other studies demonstrating that internal belief systems alongside less caregiving responsibilities enhance adaptive capacity to stressors \cite{zaman2023parental, saleh2024barriers}.
+The statistically significant—but weak—positive correlation between sense of danger and resilience was unexpected. While prior studies have suggested that perceived danger generally undermines psychological coping capacity \cite{tadesse2023exposure}, our findings suggest that in high-stress environments, a heightened awareness of risk may coexist with stronger adaptive strategies, particularly for those with prior exposure or formal training. Alternatively, this may indicate the development of hypervigilant coping behaviors, a phenomenon documented in trauma-exposed populations \cite{stewart2022hypervigilance}.
+
+% ===== Force inclusion of all 26 references =====
+\nocite{*}
+
+\bibliographystyle{plain} % numeric style
+\bibliography{ref}      % ref.bib in same folder
+
+\end{document}
+
+
+---
+
+✅ Compile sequence (XeLaTeX + BibTeX)
+
+xelatex main.tex
+bibtex main
+xelatex main.tex
+xelatex main.tex
+
+Key checks:
+
+1. All 26 references appear, numbered [1]–[26].
+
+
+2. All in-text citations remain numeric only, no author names.
+
+
+3. Hyperlinks work for every citation.
+
+
+4. Text preserved exactly as in your original Introduction and Discussion.
+
+
+
+
+---
+
+If you want, I can also produce a small verification table mapping each [number] to its .bib entry key so you can confirm every reference matches perfectly before compiling.
+
+Do you want me to do that next?
+
+% Hyperlinks                     \usepackage[colorlinks=true, allcolors=blue]{hyperref}            \usepackage{cite}
+
+
+\nocite{*}                                                        \bibliographystyle{plain} % numeric style                         \bibliography{ref}      % ref.bib in same folder
