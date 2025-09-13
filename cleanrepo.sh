@@ -1,27 +1,18 @@
-
 #!/bin/bash
-# reset_repo.sh
-# Clean Git repo safely, keep local Termux files
+# clean_repo.sh
+# Remove all tracked files from the repo
 
-cd ~/lyla || exit
+set -e
+cd ~/lyla
 
-echo "🗑️  Removing old .git history..."
-rm -rf .git
+echo "🧹 Cleaning repo (removing all tracked files)..."
+git rm -rf . > /dev/null 2>&1 || true
 
-echo "🔧 Initializing fresh git repo..."
-git init
-git checkout -b main
+echo "💾 Committing cleanup..."
+git commit -m "Clean repo" || echo "ℹ️ Nothing to commit."
 
-echo "🌐 Adding remote GitHub repo..."
-git remote add origin git@github.com:babikerosman468/lyla.git
+echo "🚀 Pushing clean state..."
+git push origin main -f
 
-echo "📂 Adding only web/ folder to repo..."
-git add web
+echo "✅ Repo cleaned successfully!"
 
-echo "📝 Commiting changes..."
-git commit -m "Initial clean repo with web folder"
-
-echo "⬆️  Forcing push to GitHub main..."
-git push -f origin main
-
-echo "✅ Repo has been reset and pushed with only web/ folder!"
